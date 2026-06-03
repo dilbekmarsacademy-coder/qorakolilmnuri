@@ -76,7 +76,10 @@
       "Bash(ssh -o StrictHostKeyChecking=no -o BatchMode=yes -T git@github.com)",
       "Bash(brew install *)",
       "Bash(gh --version)",
-      "Bash(echo \"✅ gh installed: $\\(gh --version)"
+      "Bash(echo \"✅ gh installed: $\\(gh --version)",
+      "Bash(git fetch *)",
+      "Bash(git commit -m 'Update local settings *)",
+      "Bash(git push *)"
     ]
   }
 }
