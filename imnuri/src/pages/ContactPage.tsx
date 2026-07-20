@@ -53,10 +53,10 @@ export default function ContactPage() {
               {
                 icon: FaPhoneAlt,
                 label: "Telefon",
-                value: "+998 93 378-39-85",
-                sub: "+998 93 378-39-85",
+                value: "+998 99 708-76-04",
+                sub: "+998 94 244-35-36, +998 99 570-17-05",
                 color: "bg-green-100 text-green-600",
-                href: "tel:+998933783985",
+                href: "tel:+998997087604",
               },
               {
                 icon: MdEmail,
@@ -127,7 +127,7 @@ export default function ContactPage() {
                         required
                         value={form.phone}
                         onChange={e => setForm(p => ({ ...p, phone: e.target.value }))}
-                        placeholder="+998 93 378-39-85"
+                        placeholder="+998 99 708-76-04"
                         className="w-full px-4 py-3.5 border border-gray-200 rounded-2xl focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 placeholder:text-secondary/50"
                       />
                     </div>
@@ -215,7 +215,7 @@ export default function ContactPage() {
                 <div className="grid grid-cols-2 gap-3">
                   {[
                     { icon: FaTelegram, label: "Telegram", href: "https://t.me/Dil_khan", color: "bg-[#229ED9] hover:bg-[#1a8bbf]" },
-                    { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/998933783985", color: "bg-[#25D366] hover:bg-[#1db954]" },
+                    { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/998997087604", color: "bg-[#25D366] hover:bg-[#1db954]" },
                     { icon: FaInstagram, label: "Instagram", href: "https://instagram.com/ilmnuri.qorakol", color: "bg-gradient-to-br from-purple-500 to-pink-500" },
                     { icon: FaYoutube, label: "YouTube", href: "https://youtube.com/@ilmnuri", color: "bg-red-600 hover:bg-red-700" },
                   ].map(({ icon: Icon, label, href, color }) => (

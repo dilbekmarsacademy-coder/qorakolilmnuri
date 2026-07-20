@@ -13,10 +13,10 @@ const contactInfo = [
   {
     icon: FaPhoneAlt,
     label: "Telefon",
-    value: "+998 93 378-39-85",
-    sub: "+998 93 378-39-85",
+    value: "+998 99 708-76-04",
+    sub: "+998 94 244-35-36, +998 99 570-17-05",
     color: "bg-green-100 text-green-600",
-    href: "tel:+998933783985",
+    href: "tel:+998997087604",
   },
   {
     icon: MdEmail,
@@ -37,7 +37,7 @@ const contactInfo = [
 
 const socials = [
   { icon: FaTelegram, label: "Telegram", href: "https://t.me/Dil_khan", color: "bg-[#229ED9] hover:bg-[#1a8bbf]" },
-  { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/998933783985", color: "bg-[#25D366] hover:bg-[#1db954]" },
+  { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/998997087604", color: "bg-[#25D366] hover:bg-[#1db954]" },
   { icon: FaInstagram, label: "Instagram", href: "https://instagram.com/ilmnuri.qorakol", color: "bg-gradient-to-br from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600" },
   { icon: FaYoutube, label: "YouTube", href: "https://youtube.com/@ilmnuri", color: "bg-red-600 hover:bg-red-700" },
 ]

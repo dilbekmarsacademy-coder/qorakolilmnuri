@@ -247,13 +247,13 @@ export default function ApplySection() {
                   className="flex items-center gap-3 p-3.5 bg-[#229ED9]/10 hover:bg-[#229ED9]/20 border border-[#229ED9]/20 rounded-2xl text-[#229ED9] font-semibold text-sm transition-colors">
                   <FaTelegram size={18} /> Telegram
                 </a>
-                <a href="https://wa.me/998933783985" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp orqali bog'lanish"
+                <a href="https://wa.me/998997087604" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp orqali bog'lanish"
                   className="flex items-center gap-3 p-3.5 bg-[#25D366]/10 hover:bg-[#25D366]/20 border border-[#25D366]/20 rounded-2xl text-[#25D366] font-semibold text-sm transition-colors">
                   <FaWhatsapp size={18} /> WhatsApp
                 </a>
-                <a href="tel:+998933783985" aria-label="Telefon orqali qo'ng'iroq qilish"
+                <a href="tel:+998997087604" aria-label="Telefon orqali qo'ng'iroq qilish"
                   className="flex items-center gap-3 p-3.5 bg-primary/10 hover:bg-primary/15 border border-primary/15 rounded-2xl text-primary font-semibold text-sm transition-colors">
-                  📞 +998 93 378-39-85
+                  📞 +998 99 708-76-04
                 </a>
               </div>
             </div>

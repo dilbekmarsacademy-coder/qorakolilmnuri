@@ -68,7 +68,7 @@ export default function WhyUs() {
               className="bg-accent hover:bg-yellow-500 text-white font-bold px-8 py-4 rounded-2xl transition-all hover:shadow-xl">
               Ariza topshirish
             </Link>
-            <a href="tel:+998933783985" aria-label="Qo'ng'iroq qilish"
+            <a href="tel:+998997087604" aria-label="Qo'ng'iroq qilish"
               className="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-8 py-4 rounded-2xl transition-all">
               Qo'ng'iroq qilish
             </a>

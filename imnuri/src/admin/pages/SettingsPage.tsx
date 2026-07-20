@@ -45,13 +45,13 @@ type Settings = {
 }
 
 const defaults: Settings = {
-  phone: '+998 93 378-39-85',
-  phone2: '',
+  phone: '+998 99 708-76-04',
+  phone2: '+998 94 244-35-36, +998 99 570-17-05',
   email: 'info@ilmnuri.uz',
   address: "Qorako'l shahri, Buxoro viloyati, O'zbekiston",
   working_hours: 'Dushanba–Shanba: 08:00–20:00',
   telegram: 'https://t.me/Dil_khan',
-  whatsapp: 'https://wa.me/998933783985',
+  whatsapp: 'https://wa.me/998997087604',
   instagram: 'https://instagram.com/ilmnuri.qorakol',
   youtube: 'https://youtube.com/@ilmnuri',
   map_embed: '',
@@ -113,7 +113,7 @@ export default function SettingsPage() {
                 icon={FaPhone}
                 value={settings.phone}
                 onChange={e => setSettings(p => ({ ...p, phone: e.target.value }))}
-                placeholder="+998 93 378-39-85"
+                placeholder="+998 99 708-76-04"
               />
           <Field
                 label="Qo'shimcha telefon (ixtiyoriy)"

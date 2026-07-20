@@ -21,7 +21,7 @@ export default function FloatingButtons() {
       </motion.a>
 
       <motion.a
-        href="https://wa.me/998933783985"
+        href="https://wa.me/998997087604"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ scale: 0 }}

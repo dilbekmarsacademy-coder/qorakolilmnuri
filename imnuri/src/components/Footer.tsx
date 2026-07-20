@@ -24,7 +24,7 @@ const courses = [
 
 const socials = [
   { icon: FaTelegram, href: "https://t.me/Dil_khan", color: "hover:bg-[#229ED9]", label: "Telegram" },
-  { icon: FaWhatsapp, href: "https://wa.me/998933783985", color: "hover:bg-[#25D366]", label: "WhatsApp" },
+  { icon: FaWhatsapp, href: "https://wa.me/998997087604", color: "hover:bg-[#25D366]", label: "WhatsApp" },
   { icon: FaInstagram, href: "https://instagram.com/ilmnuri.qorakol", color: "hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-500", label: "Instagram" },
   { icon: FaYoutube, href: "https://youtube.com/@ilmnuri", color: "hover:bg-red-600", label: "YouTube" },
 ]
@@ -110,11 +110,19 @@ export default function Footer() {
                 <FaMapMarkerAlt className="text-accent mt-0.5 flex-shrink-0" size={15} />
                 <span className="text-white/60 text-sm">Qorako'l shahri, Buxoro viloyati, O'zbekiston</span>
               </li>
-              <li className="flex items-center gap-3">
-                <FaPhoneAlt className="text-accent flex-shrink-0" size={14} />
-                <a href="tel:+998933783985" className="text-white/60 hover:text-white text-sm transition-colors">
-                  +998 93 378-39-85
-                </a>
+              <li className="flex items-start gap-3">
+                <FaPhoneAlt className="text-accent mt-0.5 flex-shrink-0" size={14} />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+998997087604" className="text-white/60 hover:text-white text-sm transition-colors">
+                    +998 99 708-76-04
+                  </a>
+                  <a href="tel:+998942443536" className="text-white/60 hover:text-white text-sm transition-colors">
+                    +998 94 244-35-36
+                  </a>
+                  <a href="tel:+998995701705" className="text-white/60 hover:text-white text-sm transition-colors">
+                    +998 99 570-17-05
+                  </a>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <MdEmail className="text-accent flex-shrink-0" size={16} />

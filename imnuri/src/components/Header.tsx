@@ -78,11 +78,11 @@ export default function Header() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="tel:+998933783985"
+            href="tel:+998997087604"
             className={`flex items-center gap-2 text-sm font-medium ${isDark ? 'text-white' : 'text-maintext'}`}
           >
             <FaPhoneAlt className="text-accent" size={13} />
-            <span>+998 93 378-39-85</span>
+            <span>+998 99 708-76-04</span>
           </a>
           <Link
             to="/apply"
@@ -129,9 +129,9 @@ export default function Header() {
                 </Link>
               ))}
               <div className="pt-3 border-t border-gray-100 flex flex-col gap-3">
-                <a href="tel:+998933783985" className="flex items-center gap-2 text-primary font-medium px-4">
+                <a href="tel:+998997087604" className="flex items-center gap-2 text-primary font-medium px-4">
                   <FaPhoneAlt className="text-accent" size={13} />
-                  +998 93 378-39-85
+                  +998 99 708-76-04
                 </a>
                 <Link
                   to="/apply"

@@ -116,10 +116,10 @@ export default function CoursesPage() {
               Bepul konsultatsiya olish
             </Link>
             <a
-              href="tel:+998933783985"
+              href="tel:+998997087604"
               className="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-8 py-4 rounded-2xl transition-all"
             >
-              +998 93 378-39-85
+              +998 99 708-76-04
             </a>
           </div>
         </div>
