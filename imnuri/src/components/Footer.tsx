@@ -23,7 +23,7 @@ const courses = [
 ]
 
 const socials = [
-  { icon: FaTelegram, href: "https://t.me/Dil_khan", color: "hover:bg-[#229ED9]", label: "Telegram" },
+  { icon: FaTelegram, href: "https://t.me/Arslonov_Sobir", color: "hover:bg-[#229ED9]", label: "Telegram" },
   { icon: FaWhatsapp, href: "https://wa.me/998997087604", color: "hover:bg-[#25D366]", label: "WhatsApp" },
   { icon: FaInstagram, href: "https://instagram.com/ilmnuri.qorakol", color: "hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-500", label: "Instagram" },
   { icon: FaYoutube, href: "https://youtube.com/@ilmnuri", color: "hover:bg-red-600", label: "YouTube" },

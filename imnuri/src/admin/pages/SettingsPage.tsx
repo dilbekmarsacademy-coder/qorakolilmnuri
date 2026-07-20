@@ -50,7 +50,7 @@ const defaults: Settings = {
   email: 'info@ilmnuri.uz',
   address: "Qorako'l shahri, Buxoro viloyati, O'zbekiston",
   working_hours: 'Dushanba–Shanba: 08:00–20:00',
-  telegram: 'https://t.me/Dil_khan',
+  telegram: 'https://t.me/Arslonov_Sobir',
   whatsapp: 'https://wa.me/998997087604',
   instagram: 'https://instagram.com/ilmnuri.qorakol',
   youtube: 'https://youtube.com/@ilmnuri',

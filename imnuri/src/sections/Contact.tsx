@@ -36,7 +36,7 @@ const contactInfo = [
 ]
 
 const socials = [
-  { icon: FaTelegram, label: "Telegram", href: "https://t.me/Dil_khan", color: "bg-[#229ED9] hover:bg-[#1a8bbf]" },
+  { icon: FaTelegram, label: "Telegram", href: "https://t.me/Arslonov_Sobir", color: "bg-[#229ED9] hover:bg-[#1a8bbf]" },
   { icon: FaWhatsapp, label: "WhatsApp", href: "https://wa.me/998997087604", color: "bg-[#25D366] hover:bg-[#1db954]" },
   { icon: FaInstagram, label: "Instagram", href: "https://instagram.com/ilmnuri.qorakol", color: "bg-gradient-to-br from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600" },
   { icon: FaYoutube, label: "YouTube", href: "https://youtube.com/@ilmnuri", color: "bg-red-600 hover:bg-red-700" },

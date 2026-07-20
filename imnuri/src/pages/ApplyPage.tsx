@@ -302,7 +302,7 @@ export default function ApplyPage() {
                 <h3 className="font-heading font-bold text-lg text-maintext mb-4">📞 Bevosita bog'lanish</h3>
                 <div className="space-y-3">
                   <a
-                    href="https://t.me/Dil_khan"
+                    href="https://t.me/Arslonov_Sobir"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3.5 bg-[#229ED9]/10 hover:bg-[#229ED9]/20 border border-[#229ED9]/20 rounded-2xl text-[#229ED9] font-semibold text-sm transition-colors"

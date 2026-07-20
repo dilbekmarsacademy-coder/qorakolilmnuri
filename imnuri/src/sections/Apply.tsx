@@ -243,7 +243,7 @@ export default function ApplySection() {
             <div className="bg-white rounded-3xl p-6 border border-gray-100">
               <h3 className="font-heading font-bold text-maintext text-lg mb-4">📞 Bevosita bog'lanish</h3>
               <div className="space-y-3">
-                <a href="https://t.me/Dil_khan" target="_blank" rel="noopener noreferrer" aria-label="Telegram orqali bog'lanish"
+                <a href="https://t.me/Arslonov_Sobir" target="_blank" rel="noopener noreferrer" aria-label="Telegram orqali bog'lanish"
                   className="flex items-center gap-3 p-3.5 bg-[#229ED9]/10 hover:bg-[#229ED9]/20 border border-[#229ED9]/20 rounded-2xl text-[#229ED9] font-semibold text-sm transition-colors">
                   <FaTelegram size={18} /> Telegram
                 </a>
