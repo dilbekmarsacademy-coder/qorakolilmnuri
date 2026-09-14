@@ -31,7 +31,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#0d1b35' }} className="text-white">
+    <footer style={{ background: '#0A1B44' }} className="text-white">
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
@@ -40,7 +40,7 @@ export default function Footer() {
               <img
                 src={logo}
                 alt="Qorako'l Ilm Nuri Ta'lim Markazi"
-                className="w-12 h-12 object-contain bg-white rounded-full p-0.5"
+                className="w-14 h-14 object-contain bg-white rounded-full p-1 shadow-md"
               />
               <div>
                 <p className="font-heading font-bold text-white text-lg leading-tight">Ilm Nuri</p>

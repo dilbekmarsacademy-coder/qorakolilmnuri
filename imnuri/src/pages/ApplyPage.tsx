@@ -64,7 +64,7 @@ export default function ApplyPage() {
       {/* Hero */}
       <section
         className="py-20 text-white"
-        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #1B4F8A 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #14306E 100%)' }}
       >
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <div>
@@ -328,7 +328,7 @@ export default function ApplyPage() {
 
               <div
                 className="rounded-3xl p-6 text-white text-center"
-                style={{ background: 'linear-gradient(135deg, #1B4F8A, #2563EB)' }}
+                style={{ background: 'linear-gradient(135deg, #14306E, #2563EB)' }}
               >
                 <p className="font-heading font-bold text-2xl text-accent mb-1">90%</p>
                 <p className="font-semibold">o'quvchilarimiz grant oladi</p>

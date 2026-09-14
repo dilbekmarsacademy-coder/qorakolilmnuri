@@ -18,7 +18,7 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center"
       style={{
-        background: 'linear-gradient(135deg, #0d2d5a 0%, #1B4F8A 50%, #1e5fa8 100%)',
+        background: 'linear-gradient(135deg, #0d2d5a 0%, #14306E 50%, #1e5fa8 100%)',
       }}
     >
       {/* Fon bezaklari — alohida overflow-hidden ichida */}

@@ -9,7 +9,7 @@ export default function CoursesPage() {
       {/* Hero */}
       <section
         className="py-20 md:py-24 text-white"
-        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #1B4F8A 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #14306E 100%)' }}
       >
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <div>
@@ -99,7 +99,7 @@ export default function CoursesPage() {
       {/* CTA */}
       <section
         className="py-20 text-white"
-        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #1B4F8A 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #14306E 100%)' }}
       >
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <h2 className="font-heading font-black text-3xl md:text-4xl mb-4">

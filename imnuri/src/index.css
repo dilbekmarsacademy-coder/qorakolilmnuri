@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  color: #1A1A2E;
+  color: #12193A;
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,7 +35,7 @@ h1, h2, h3, h4 {
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #1B4F8A 0%, #2563EB 100%);
+    background: linear-gradient(135deg, #14306E 0%, #2563EB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

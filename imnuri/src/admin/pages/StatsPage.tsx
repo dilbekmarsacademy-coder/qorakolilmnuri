@@ -12,7 +12,7 @@ const CartesianGrid  = lazy(() => import('recharts').then(m => ({ default: m.Car
 const Tooltip        = lazy(() => import('recharts').then(m => ({ default: m.Tooltip })))
 const ResponsiveContainer = lazy(() => import('recharts').then(m => ({ default: m.ResponsiveContainer })))
 
-const COLORS = ['#1B4F8A', '#F4A51B', '#10b981', '#ef4444']
+const COLORS = ['#14306E', '#D9A521', '#10b981', '#ef4444']
 
 export default function StatsPage() {
   const [data, setData] = useState<{ course: string; count: number }[]>([])
@@ -74,7 +74,7 @@ export default function StatsPage() {
                 <XAxis dataKey="course" tick={{ fontSize: 10, fill: '#6B7280' }} />
                 <YAxis tick={{ fontSize: 11, fill: '#6B7280' }} />
                 <Tooltip />
-                <Bar dataKey="count" name="Ariza" fill="#1B4F8A" radius={[4,4,0,0]} />
+                <Bar dataKey="count" name="Ariza" fill="#14306E" radius={[4,4,0,0]} />
               </BarChart>
             </ResponsiveContainer>
           </Suspense>
@@ -105,7 +105,7 @@ export default function StatsPage() {
                 <XAxis dataKey="date" tick={{ fontSize: 10, fill: '#6B7280' }} />
                 <YAxis tick={{ fontSize: 11, fill: '#6B7280' }} />
                 <Tooltip />
-                <Bar dataKey="count" name="Ariza" fill="#F4A51B" radius={[4,4,0,0]} />
+                <Bar dataKey="count" name="Ariza" fill="#D9A521" radius={[4,4,0,0]} />
               </BarChart>
             </ResponsiveContainer>
           </Suspense>

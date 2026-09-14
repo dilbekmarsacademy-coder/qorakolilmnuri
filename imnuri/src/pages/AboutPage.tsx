@@ -25,7 +25,7 @@ export default function AboutPage() {
       {/* Hero — tezkor ko'rinadi, opacity animatsiyasi yo'q */}
       <section
         className="py-20 md:py-28 text-white"
-        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #1B4F8A 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #0d2d5a 0%, #14306E 100%)' }}
       >
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <span className="inline-block bg-white/10 text-white/80 text-sm px-4 py-1.5 rounded-full mb-6">

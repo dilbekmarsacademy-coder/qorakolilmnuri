@@ -41,7 +41,7 @@ export default function Header() {
           <img
             src={logo}
             alt="Qorako'l Ilm Nuri Ta'lim Markazi"
-            className={`w-11 h-11 object-contain ${isDark ? 'drop-shadow-md' : ''}`}
+            className={`w-12 h-12 object-contain drop-shadow-md`}
           />
           <div>
             <p className={`font-heading font-bold text-lg leading-tight ${isDark ? 'text-white' : 'text-primary'}`}>

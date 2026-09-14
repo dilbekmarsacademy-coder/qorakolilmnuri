@@ -37,7 +37,7 @@ function TeacherCard({ t }: { t: Teacher }) {
       ) : (
         <div
           className="absolute inset-0 transition-transform duration-700 group-hover:scale-110"
-          style={{ background: t.gradient || 'linear-gradient(135deg,#1B4F8A,#2563EB)' }}
+          style={{ background: t.gradient || 'linear-gradient(135deg,#14306E,#2563EB)' }}
         >
           {/* Avatar initials */}
           <div className="absolute inset-0 flex items-center justify-center">

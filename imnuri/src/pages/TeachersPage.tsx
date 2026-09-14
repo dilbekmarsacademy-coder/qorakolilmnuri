@@ -43,7 +43,7 @@ function TeacherCard({ t, i }: { t: Teacher; i: number }) {
       ) : (
         <div
           className="absolute inset-0 transition-transform duration-700 group-hover:scale-110"
-          style={{ background: t.gradient || 'linear-gradient(135deg,#1B4F8A,#2563EB)' }}
+          style={{ background: t.gradient || 'linear-gradient(135deg,#14306E,#2563EB)' }}
         >
           <div className="absolute inset-0 flex items-center justify-center">
             <span className="text-white font-heading font-black opacity-20 select-none"
@@ -134,7 +134,7 @@ export default function TeachersPage() {
   return (
     <div className="pt-20">
       <section className="py-20 md:py-24 text-white"
-        style={{ background: 'linear-gradient(135deg,#0d2d5a 0%,#1B4F8A 100%)' }}>
+        style={{ background: 'linear-gradient(135deg,#0d2d5a 0%,#14306E 100%)' }}>
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <span className="inline-block bg-white/10 text-white/80 text-sm px-4 py-1.5 rounded-full mb-6">
             O'qituvchilar jamoasi
@@ -181,7 +181,7 @@ export default function TeachersPage() {
       </section>
 
       <section className="py-20 text-white"
-        style={{ background: 'linear-gradient(135deg,#0d2d5a,#1B4F8A)' }}>
+        style={{ background: 'linear-gradient(135deg,#0d2d5a,#14306E)' }}>
         <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
           <h2 className="font-heading font-black text-3xl md:text-4xl mb-4">Bu mutaxassislar bilan birga o'qing!</h2>
           <p className="text-white/80 mb-8">Hoziroq ariza qoldiring va bepul sinov darsiga yozilib oling</p>

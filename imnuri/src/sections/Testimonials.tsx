@@ -9,7 +9,7 @@ const students = [
     is_grant: true,
     year: '2025',
     text: "Ilm Nuri markazida 8 oy davomida ingliz tilini o'rgandim. Noldan boshlab Band 7.5 ga yetdim. Rustam domla har bir mashg'ulotda real natija berdi.",
-    gradient: 'linear-gradient(135deg,#1B4F8A,#2563EB)',
+    gradient: 'linear-gradient(135deg,#14306E,#2563EB)',
     stars: 5,
     imageUrl: '',
   },

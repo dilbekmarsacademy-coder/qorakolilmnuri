@@ -53,7 +53,7 @@ export default function About() {
               <div className="absolute -top-4 -left-4 w-full h-full bg-background rounded-3xl -z-10" />
               <div className="bg-white border border-gray-100 shadow-xl rounded-3xl overflow-hidden">
                 <div className="h-56 flex items-center justify-center"
-                  style={{ background: 'linear-gradient(135deg, #1B4F8A 0%, #2563EB 100%)' }}>
+                  style={{ background: 'linear-gradient(135deg, #14306E 0%, #2563EB 100%)' }}>
                   <div className="text-center text-white p-8">
                     <p className="font-heading font-black text-7xl text-accent">11+</p>
                     <p className="font-semibold text-xl mt-2">Yil faoliyat</p>

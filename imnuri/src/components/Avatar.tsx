@@ -7,14 +7,14 @@ type AvatarProps = {
 }
 
 const gradients = [
-  'linear-gradient(135deg, #1B4F8A 0%, #2563EB 100%)',
+  'linear-gradient(135deg, #14306E 0%, #2563EB 100%)',
   'linear-gradient(135deg, #0d9488 0%, #0891b2 100%)',
   'linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%)',
   'linear-gradient(135deg, #dc2626 0%, #ea580c 100%)',
   'linear-gradient(135deg, #059669 0%, #065f46 100%)',
   'linear-gradient(135deg, #d97706 0%, #b45309 100%)',
   'linear-gradient(135deg, #db2777 0%, #9d174d 100%)',
-  'linear-gradient(135deg, #2563EB 0%, #1B4F8A 100%)',
+  'linear-gradient(135deg, #2563EB 0%, #14306E 100%)',
 ]
 
 const sizes = {

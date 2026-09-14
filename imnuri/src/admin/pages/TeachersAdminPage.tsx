@@ -24,7 +24,7 @@ function Field({ label, value, onChange, type = 'text' }: {
 
 const empty: Omit<Teacher, 'id'> = {
   name: '', subject: '', experience: '', score: '', rating: 5.0,
-  students: 0, cert: '', bio: '', gradient: 'linear-gradient(135deg,#1B4F8A,#2563EB)',
+  students: 0, cert: '', bio: '', gradient: 'linear-gradient(135deg,#14306E,#2563EB)',
   image_url: '', display_order: 0, active: true,
 }
 

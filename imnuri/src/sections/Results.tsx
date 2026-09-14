@@ -98,7 +98,7 @@ export default function ResultsSection() {
                     <YAxis tick={{ fontSize: 11, fill: '#6B7280' }} />
                     <Tooltip content={<CustomTooltip />} />
                     <Bar dataKey="students" name="O'quvchilar" fill="#BFDBFE" radius={[4, 4, 0, 0]} />
-                    <Bar dataKey="grants" name="Grant" fill="#1B4F8A" radius={[4, 4, 0, 0]} />
+                    <Bar dataKey="grants" name="Grant" fill="#14306E" radius={[4, 4, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               )}
@@ -123,7 +123,7 @@ export default function ResultsSection() {
                     <XAxis dataKey="band" tick={{ fontSize: 11, fill: '#6B7280' }} />
                     <YAxis tick={{ fontSize: 11, fill: '#6B7280' }} />
                     <Tooltip content={<CustomTooltip />} />
-                    <Bar dataKey="count" name="O'quvchilar" fill="#F4A51B" radius={[4, 4, 0, 0]} />
+                    <Bar dataKey="count" name="O'quvchilar" fill="#D9A521" radius={[4, 4, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               )}
