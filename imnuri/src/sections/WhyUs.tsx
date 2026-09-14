@@ -1,14 +1,17 @@
 import { motion } from 'framer-motion'
-import { FaMedal, FaUserCheck, FaChartLine, FaGraduationCap, FaBook, FaClock } from 'react-icons/fa'
+import { FaBed, FaUtensils, FaEye, FaMobileAlt, FaClipboardCheck, FaUsers, FaCalendarCheck, FaSms, FaMedal } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const advantages = [
-  { icon: FaMedal, title: "11+ Yil Tajriba", desc: "Qorako'lda eng ko'p yillik tajribaga ega ta'lim markazi.", color: "bg-blue-100 text-primary" },
-  { icon: FaGraduationCap, title: "90% Grant Natijalari", desc: "Har yili o'quvchilarning 90%dan ortig'i davlat granti sohibi bo'ladi.", color: "bg-amber-100 text-amber-600" },
-  { icon: FaChartLine, title: "IELTS Band 8 gacha", desc: "Noldan boshlab Band 8 gacha. O'quvchilarimiz xalqaro miqyosda tan olingan.", color: "bg-green-100 text-green-600" },
-  { icon: FaUserCheck, title: "Individual Yondashuv", desc: "Har bir o'quvchining darajasiga qarab o'quv rejasi. Max 8-10 kishi.", color: "bg-purple-100 text-purple-600" },
-  { icon: FaBook, title: "Zamonaviy Dasturlar", desc: "DTM, IELTS, SAT va xalqaro standartlarga mos o'quv materiallari.", color: "bg-teal-100 text-teal-600" },
-  { icon: FaClock, title: "Qulay Jadval", desc: "Ertalab va kechki smenalar — vaqtni o'zingiz tanlaysiz.", color: "bg-rose-100 text-rose-600" },
+  { icon: FaBed, title: "Yotoqxona mavjud", desc: "Viloyatlardan kelgan o'quvchilar uchun qulay yotoqxona xizmati.", color: "bg-blue-100 text-primary" },
+  { icon: FaUtensils, title: "Kuniga 3 mahal issiq ovqat", desc: "O'quvchilar to'yib, sog'lom ovqatlanadi va darsga to'liq kuch bilan kirishadi.", color: "bg-amber-100 text-amber-600" },
+  { icon: FaEye, title: "Doimiy nazorat", desc: "O'quvchilar ustidan kun davomida uzluksiz nazorat olib boriladi.", color: "bg-green-100 text-green-600" },
+  { icon: FaMobileAlt, title: "Telefondan cheklangan foydalanish", desc: "Diqqat faqat darsga qaratiladi — telefonlardan foydalanish qat'iy cheklangan.", color: "bg-purple-100 text-purple-600" },
+  { icon: FaClipboardCheck, title: "Kundalik dars va testlar", desc: "Har kuni dars va sinov testlari orqali bilim mustahkamlanadi.", color: "bg-teal-100 text-teal-600" },
+  { icon: FaUsers, title: "Ota-onalar bilan aloqa", desc: "Ota-onalar bilan muntazam aloqa yo'lga qo'yilgan.", color: "bg-rose-100 text-rose-600" },
+  { icon: FaCalendarCheck, title: "Har 2 oyda ota-onalar yig'ilishi", desc: "O'quvchi natijalari muntazam ravishda ota-onalarga yetkaziladi.", color: "bg-indigo-100 text-indigo-600" },
+  { icon: FaSms, title: "SMS/xabarnomalar", desc: "Natijalar bo'yicha ota-onalarga SMS orqali xabar beriladi.", color: "bg-cyan-100 text-cyan-600" },
+  { icon: FaMedal, title: "Tajribali ustozlar", desc: "Tajribali va sertifikatga ega o'qituvchilar jamoasi.", color: "bg-yellow-100 text-yellow-700" },
 ]
 
 const container = { hidden: {}, show: { transition: { staggerChildren: 0.08 } } }
@@ -26,13 +29,13 @@ export default function WhyUs() {
           className="text-center mb-14"
         >
           <span className="inline-block bg-primary/10 text-primary font-semibold text-sm px-4 py-1.5 rounded-full mb-4">
-            Nima uchun biz?
+            Ta'lim sharoiti
           </span>
           <h2 className="font-heading font-black text-3xl md:text-4xl text-maintext mb-4">
-            Ilm Nuri da o'qishning <span className="text-primary">6 ta afzalligi</span>
+            QORAKO'L ILM NURI da <span className="text-primary">ta'lim sharoiti</span>
           </h2>
           <p className="text-secondary text-lg max-w-xl mx-auto">
-            Boshqa markazlardan farqimiz — natijada ko'rinadi
+            Boshqa markazlardan farqimiz — yaratilgan sharoitda ko'rinadi
           </p>
         </motion.div>
 
@@ -68,7 +71,7 @@ export default function WhyUs() {
               className="bg-accent hover:bg-yellow-500 text-white font-bold px-8 py-4 rounded-2xl transition-all hover:shadow-xl">
               Ariza topshirish
             </Link>
-            <a href="tel:+998997087604" aria-label="Qo'ng'iroq qilish"
+            <a href="tel:+998995701705" aria-label="Qo'ng'iroq qilish"
               className="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-8 py-4 rounded-2xl transition-all">
               Qo'ng'iroq qilish
             </a>

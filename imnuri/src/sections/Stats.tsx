@@ -8,6 +8,7 @@ const stats: {
   icon: IconType
   end: number
   suffix: string
+  decimals?: number
   label: string
   desc: string
   bg: string
@@ -15,25 +16,25 @@ const stats: {
 }[] = [
   {
     icon: FaClock,
-    end: 11,
+    end: 15,
     suffix: '+',
     label: 'Yil faoliyat',
-    desc: '2013 yildan buyon',
+    desc: '2015 yildan buyon',
     bg: 'bg-blue-50',
     iconColor: 'text-blue-600',
   },
   {
     icon: FaUsers,
-    end: 3000,
+    end: 15000,
     suffix: '+',
-    label: 'Bitiruvchilar',
-    desc: "Muvaffaqiyatli o'quvchilar",
+    label: "O'quvchilar",
+    desc: "Bizda tahsil olgan",
     bg: 'bg-amber-50',
     iconColor: 'text-amber-600',
   },
   {
     icon: FaGraduationCap,
-    end: 90,
+    end: 99,
     suffix: '%',
     label: 'Grant sohibi',
     desc: 'Har yili davlat granti',
@@ -42,10 +43,11 @@ const stats: {
   },
   {
     icon: FaTrophy,
-    end: 8,
-    suffix: '+',
-    label: 'IELTS Band',
-    desc: 'Maksimal natija',
+    end: 7.5,
+    suffix: '',
+    decimals: 1,
+    label: 'IELTS ball',
+    desc: 'Eng yuqori natija',
     bg: 'bg-purple-50',
     iconColor: 'text-purple-600',
   },
@@ -58,6 +60,7 @@ function StatCard({ stat, index, active }: { stat: typeof stats[0]; index: numbe
     end: stat.end,
     duration: 2.5,
     suffix: stat.suffix,
+    decimals: stat.decimals ?? 0,
     startOnMount: false,
   })
 
@@ -129,7 +132,7 @@ export default function Stats() {
           style={{ background: 'rgba(244,165,27,0.15)', border: '1px solid rgba(244,165,27,0.25)' }}
         >
           <p className="text-white font-heading font-bold text-xl md:text-2xl">
-            🎯 Har yili 200+ abituriyent davlat grantigacha yetib boradi
+            🎯 2025-yilda 1000+ abituriyent tayyorlandi
           </p>
           <p className="text-white/70 mt-2">Ilm Nuri bilan siz ham bu statistikaning bir qismi bo'ling!</p>
         </motion.div>

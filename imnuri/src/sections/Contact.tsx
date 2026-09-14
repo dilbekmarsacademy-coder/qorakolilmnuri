@@ -6,17 +6,17 @@ const contactInfo = [
   {
     icon: FaMapMarkerAlt,
     label: "Manzil",
-    value: "Qorako'l shahri, Buxoro viloyati",
-    sub: "O'zbekiston",
+    value: "Qorako'l tumani, Amfiteatr ro'parasi",
+    sub: "Buxoro viloyati, O'zbekiston",
     color: "bg-blue-100 text-primary",
   },
   {
     icon: FaPhoneAlt,
     label: "Telefon",
-    value: "+998 99 708-76-04",
-    sub: "+998 94 244-35-36, +998 99 570-17-05",
+    value: "+998 99 570-17-05",
+    sub: "+998 99 708-76-04, +998 94 244-35-36",
     color: "bg-green-100 text-green-600",
-    href: "tel:+998997087604",
+    href: "tel:+998995701705",
   },
   {
     icon: MdEmail,
@@ -136,13 +136,13 @@ export default function Contact() {
                 📍 Biz bu yerda joylashmiz
               </h3>
               <p className="text-secondary text-sm mt-1">
-                Qorako'l shahri, Buxoro viloyati, O'zbekiston
+                Buxoro viloyati, Qorako'l tumani, Amfiteatr ro'parasi
               </p>
             </div>
             <div className="relative h-72 md:h-80">
               <iframe
                 title="Ilm Nuri Ta'lim Markazi manzili"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d63.85!3d39.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zUW9yYWtvJ2wsIE8nemJla2lzdG9u!5e0!3m2!1suz!2s!4v1620000000000!5m2!1suz!2s"
+                src="https://www.google.com/maps?q=39.508329,63.840978&z=16&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -153,7 +153,7 @@ export default function Contact() {
               />
               <div className="absolute bottom-4 left-4 bg-white rounded-xl shadow-lg px-4 py-2 border border-gray-100">
                 <p className="font-bold text-primary text-sm">Ilm Nuri Ta'lim Markazi</p>
-                <p className="text-secondary text-xs">Qorako'l, Buxoro viloyati</p>
+                <p className="text-secondary text-xs">Qorako'l tumani, Amfiteatr ro'parasi</p>
               </div>
             </div>
           </motion.div>

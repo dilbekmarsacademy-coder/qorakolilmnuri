@@ -141,10 +141,10 @@ export default function Testimonials() {
           className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4"
         >
           {[
-            { num: '3000+', label: 'Bitiruvchi' },
-            { num: '90%', label: 'Grant sohibi' },
-            { num: '8.0', label: 'IELTS max' },
-            { num: '11+', label: 'Yil tajriba' },
+            { num: '15000+', label: "O'quvchi" },
+            { num: '99%', label: 'Grant sohibi' },
+            { num: '7.5', label: 'IELTS max' },
+            { num: '15+', label: 'Yil tajriba' },
           ].map((item, i) => (
             <div key={i} className="bg-white rounded-2xl p-5 text-center border border-gray-100">
               <p className="font-heading font-black text-3xl text-primary">{item.num}</p>

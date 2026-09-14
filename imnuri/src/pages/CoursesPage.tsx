@@ -22,6 +22,9 @@ export default function CoursesPage() {
             <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
               6 ta asosiy yo'nalish bo'yicha professional o'qituvchilar bilan individual mashg'ulotlar
             </p>
+            <p className="text-white/60 text-sm max-w-2xl mx-auto mt-3">
+              Qo'shimcha yo'nalishlar: Fizika, Ona tili va adabiyot, Geografiya, Turk tili, Prezident maktablariga tayyorlov
+            </p>
           </div>
         </div>
       </section>
@@ -116,10 +119,10 @@ export default function CoursesPage() {
               Bepul konsultatsiya olish
             </Link>
             <a
-              href="tel:+998997087604"
+              href="tel:+998995701705"
               className="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-8 py-4 rounded-2xl transition-all"
             >
-              +998 99 708-76-04
+              +998 99 570-17-05
             </a>
           </div>
         </div>

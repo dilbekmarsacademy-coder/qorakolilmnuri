@@ -45,10 +45,10 @@ type Settings = {
 }
 
 const defaults: Settings = {
-  phone: '+998 99 708-76-04',
-  phone2: '+998 94 244-35-36, +998 99 570-17-05',
+  phone: '+998 99 570-17-05',
+  phone2: '+998 99 708-76-04, +998 94 244-35-36',
   email: 'info@ilmnuri.uz',
-  address: "Qorako'l shahri, Buxoro viloyati, O'zbekiston",
+  address: "Buxoro viloyati, Qorako'l tumani, Amfiteatr ro'parasi",
   working_hours: 'Dushanba–Shanba: 08:00–20:00',
   telegram: 'https://t.me/Arslonov_Sobir',
   whatsapp: 'https://wa.me/998997087604',

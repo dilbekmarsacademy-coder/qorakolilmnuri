@@ -27,7 +27,6 @@ const ieltsData = [
   { band: '6.5', count: 112 },
   { band: '7.0', count: 78 },
   { band: '7.5', count: 43 },
-  { band: '8.0', count: 21 },
 ]
 
 const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: { name: string; value: number; color: string }[]; label?: string }) => {
@@ -133,10 +132,10 @@ export default function ResultsSection() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           {[
-            { num: '245+', label: '2025-yil grant oldi', color: 'text-primary' },
-            { num: '91%', label: 'Grant ulushi', color: 'text-green-600' },
-            { num: '8.0', label: "Eng yuqori IELTS", color: 'text-accent' },
-            { num: '100%', label: "Bitiruvchi ishonadi", color: 'text-purple-600' },
+            { num: '1000+', label: '2025-yil abituriyent', color: 'text-primary' },
+            { num: '99%', label: 'Grant natijasi', color: 'text-green-600' },
+            { num: '7.5', label: "Eng yuqori IELTS", color: 'text-accent' },
+            { num: '15000+', label: "Jami o'quvchi", color: 'text-purple-600' },
           ].map((item, i) => (
             <div key={i} className="bg-gray-50 rounded-2xl p-4 text-center border border-gray-100">
               <p className={`font-heading font-black text-2xl md:text-3xl ${item.color}`}>{item.num}</p>

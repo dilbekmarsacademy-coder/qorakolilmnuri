@@ -204,7 +204,7 @@ export default function CourseDetailPage() {
                   Ariza topshirish
                 </Link>
                 <a
-                  href="tel:+998997087604"
+                  href="tel:+998995701705"
                   className="w-full flex items-center justify-center gap-2 py-3.5 rounded-2xl border border-gray-200 text-secondary font-semibold text-sm hover:border-primary hover:text-primary transition-all"
                 >
                   📞 Qo'ng'iroq qilish

@@ -7,13 +7,25 @@ import PhoneInput, { getRawPhone } from '../components/PhoneInput'
 const coursesList = [
   { name: 'Ingliz tili (IELTS)', icon: '🇬🇧' },
   { name: 'Matematika', icon: '📐' },
+  { name: 'Fizika', icon: '🔭' },
   { name: 'Kimyo', icon: '⚗️' },
   { name: 'Biologiya', icon: '🧬' },
   { name: 'Huquq', icon: '⚖️' },
   { name: 'Tarix', icon: '📜' },
+  { name: 'Ona tili va adabiyot', icon: '📖' },
+  { name: 'Geografiya', icon: '🌍' },
+  { name: 'Turk tili', icon: '🇹🇷' },
+  { name: 'Prezident maktabiga tayyorlov', icon: '🏫' },
   { name: 'Bir nechta fan', icon: '📚' },
 ]
-const times = ['08:00–10:00', '10:00–12:00', '14:00–16:00', '16:00–18:00', '18:00–20:00']
+const times = [
+  'Sabah (09:00–11:00)',
+  'Kunduz (11:00–13:00)',
+  'Tushdan keyin (13:00–15:00)',
+  'Kechki 1 (15:00–17:00)',
+  'Kechki 2 (17:00–19:00)',
+  'Kech (19:00–21:00)',
+]
 
 type FormData = { name: string; phone: string; course: string; time: string; message: string }
 
@@ -76,6 +88,9 @@ export default function ApplyPage() {
             </h1>
             <p className="text-white/80 text-xl max-w-xl mx-auto">
               Ariza qoldiring — 1 soat ichida aloqaga chiqamiz va bepul sinov darsiga yozib olamiz
+            </p>
+            <p className="text-accent font-semibold mt-3">
+              ⏳ Ariza qabul qilish muddati: 30-sentyabrgacha
             </p>
           </div>
         </div>
@@ -318,10 +333,10 @@ export default function ApplyPage() {
                     <FaWhatsapp size={18} /> WhatsApp
                   </a>
                   <a
-                    href="tel:+998997087604"
+                    href="tel:+998995701705"
                     className="flex items-center gap-3 p-3.5 bg-primary/10 hover:bg-primary/15 border border-primary/15 rounded-2xl text-primary font-semibold text-sm transition-colors"
                   >
-                    📞 +998 99 708-76-04
+                    📞 +998 99 570-17-05
                   </a>
                 </div>
               </div>
@@ -330,8 +345,8 @@ export default function ApplyPage() {
                 className="rounded-3xl p-6 text-white text-center"
                 style={{ background: 'linear-gradient(135deg, #14306E, #2563EB)' }}
               >
-                <p className="font-heading font-bold text-2xl text-accent mb-1">90%</p>
-                <p className="font-semibold">o'quvchilarimiz grant oladi</p>
+                <p className="font-heading font-bold text-2xl text-accent mb-1">99%</p>
+                <p className="font-semibold">gacha o'quvchilarimiz grant oladi</p>
                 <p className="text-white/70 text-sm mt-2">Siz ham keling va bu statistikaning bir qismi bo'ling!</p>
               </div>
             </div>

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 
 export const courses = [
-  { id: 'english', icon: '🇬🇧', name: 'Ingliz tili (IELTS)', short: 'IELTS Band 0 dan 8 gacha. Xalqaro sertifikat dasturi.', desc: "To'liq IELTS tayyorgarligi: Listening, Reading, Writing, Speaking. Har oyda mock test.", color: 'from-blue-500 to-blue-700', bg: 'bg-blue-50', border: 'border-blue-100', tag: 'Eng mashhur', duration: '3–12 oy', level: 'Barcha darajalar' },
-  { id: 'math', icon: '📐', name: 'Matematika', short: 'Algebra, geometriya, DTM va IELTS math tayyorgarligi.', desc: 'Asosiy tushunchalardan DTM test formatigacha. Har hafta mustahkamlash sinovlari.', color: 'from-emerald-500 to-green-700', bg: 'bg-green-50', border: 'border-green-100', tag: 'DTM uchun', duration: '4–10 oy', level: "O'rta va oliy" },
-  { id: 'chemistry', icon: '⚗️', name: 'Kimyo', short: 'DTM kimyo: organik, anorganik, fizik kimyo.', desc: 'Laboratoriya mashqlari va DTM test formatlari. Kuchli nazariya + amaliyot.', color: 'from-orange-500 to-red-600', bg: 'bg-orange-50', border: 'border-orange-100', tag: 'Tibbiyot uchun', duration: '4–10 oy', level: "O'rta va oliy" },
-  { id: 'biology', icon: '🧬', name: 'Biologiya', short: "Hujayradan ekologiyagacha. Tibbiyot yo'nalishi uchun.", desc: 'Anatomiya, botanika, zoologiya, genetika. DTM formati bilan chuqur tayyorgarlik.', color: 'from-teal-500 to-cyan-700', bg: 'bg-teal-50', border: 'border-teal-100', tag: 'Tibbiyot uchun', duration: '4–10 oy', level: "O'rta va oliy" },
-  { id: 'law', icon: '⚖️', name: 'Huquq', short: "Konstitutsiya, fuqarolik, jinoyat huquqi asoslari.", desc: "O'zbek qonunchiligining barcha sohalarini DTM test formatida o'rganish.", color: 'from-purple-500 to-violet-700', bg: 'bg-purple-50', border: 'border-purple-100', tag: 'Yuridik uchun', duration: '3–8 oy', level: "O'rta va oliy" },
-  { id: 'history', icon: '📜', name: 'Tarix', short: "O'zbekiston va dunyo tarixi DTM formatida.", desc: "Qadimdan zamonaviy davrgacha. Xronologiya, sanalar va tahlil metodikasi.", color: 'from-amber-500 to-yellow-600', bg: 'bg-amber-50', border: 'border-amber-100', tag: 'Gumanitar', duration: '3–8 oy', level: "O'rta va oliy" },
+  { id: 'english', icon: '🇬🇧', name: 'Ingliz tili (IELTS)', short: "5-sinfdan abituriyentlargacha. Grammatika, lug'at boyligi, speaking va test ishlash.", desc: "5-sinfdan abituriyentlargacha bo'lgan o'quvchilar uchun. Grammatika, lug'at boyligi, speaking, test ishlash va xalqaro hamda milliy sertifikatlarga tayyorgarlik olib boriladi.", color: 'from-blue-500 to-blue-700', bg: 'bg-blue-50', border: 'border-blue-100', tag: 'Eng mashhur', duration: '3–12 oy', level: 'Barcha darajalar' },
+  { id: 'math', icon: '📐', name: 'Matematika', short: "Noldan OTM va Milliy sertifikatga tayyorgarlik.", desc: "Matematikani noldan o'rganish, OTM imtihonlari va Milliy sertifikatga tayyorlanish uchun. O'quvchilar darajasiga qarab guruhlarga ajratiladi.", color: 'from-emerald-500 to-green-700', bg: 'bg-green-50', border: 'border-green-100', tag: 'DTM uchun', duration: '4–10 oy', level: "O'rta va oliy" },
+  { id: 'chemistry', icon: '⚗️', name: 'Kimyo', short: 'Tibbiyot yo\'nalishiga tayyorlanuvchilar uchun nazariya va amaliyot.', desc: "Tibbiyot va boshqa yo'nalishlarga tayyorlanayotgan o'quvchilar uchun. Nazariya, masalalar va testlar tizimli o'rgatiladi.", color: 'from-orange-500 to-red-600', bg: 'bg-orange-50', border: 'border-orange-100', tag: 'Tibbiyot uchun', duration: '4–10 oy', level: "O'rta va oliy" },
+  { id: 'biology', icon: '🧬', name: 'Biologiya', short: "Tibbiyot yo'nalishiga kirishni maqsad qilgan o'quvchilar uchun.", desc: "Tibbiyot yo'nalishiga kirishni maqsad qilgan o'quvchilar uchun. Mavzular chuqur o'rganilib, test va imtihon formatida mustahkamlanadi.", color: 'from-teal-500 to-cyan-700', bg: 'bg-teal-50', border: 'border-teal-100', tag: 'Tibbiyot uchun', duration: '4–10 oy', level: "O'rta va oliy" },
+  { id: 'law', icon: '⚖️', name: 'Huquq', short: "Yuridik universitet va huquq yo'nalishlariga intensiv tayyorgarlik.", desc: "Yuridik universitet va huquq yo'nalishlariga tayyorlanayotgan abituriyentlar uchun intensiv tayyorgarlik.", color: 'from-purple-500 to-violet-700', bg: 'bg-purple-50', border: 'border-purple-100', tag: 'Yuridik uchun', duration: '3–8 oy', level: "O'rta va oliy" },
+  { id: 'history', icon: '📜', name: 'Tarix', short: "OTM va sertifikat imtihonlariga tizimli tayyorgarlik.", desc: "OTM va sertifikat imtihonlariga tayyorlanish uchun mavzular tizimli o'rgatiladi va testlar bilan mustahkamlanadi.", color: 'from-amber-500 to-yellow-600', bg: 'bg-amber-50', border: 'border-amber-100', tag: 'Gumanitar', duration: '3–8 oy', level: "O'rta va oliy" },
 ]
 
 const container = {
@@ -39,6 +39,9 @@ export default function CoursesSection() {
           </h2>
           <p className="text-secondary text-lg max-w-xl mx-auto">
             6 ta asosiy yo'nalish — professional o'qituvchilar bilan
+          </p>
+          <p className="text-secondary text-sm max-w-xl mx-auto mt-2">
+            Qo'shimcha: Fizika, Ona tili va adabiyot, Geografiya, Turk tili, Prezident maktablariga tayyorlov
           </p>
         </motion.div>
 

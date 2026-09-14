@@ -46,17 +46,17 @@ export default function ContactPage() {
               {
                 icon: FaMapMarkerAlt,
                 label: "Manzil",
-                value: "Qorako'l shahri",
-                sub: "Buxoro viloyati, O'zbekiston",
+                value: "Qorako'l tumani",
+                sub: "Amfiteatr ro'parasi, Buxoro viloyati",
                 color: "bg-blue-100 text-primary",
               },
               {
                 icon: FaPhoneAlt,
                 label: "Telefon",
-                value: "+998 99 708-76-04",
-                sub: "+998 94 244-35-36, +998 99 570-17-05",
+                value: "+998 99 570-17-05",
+                sub: "+998 99 708-76-04, +998 94 244-35-36",
                 color: "bg-green-100 text-green-600",
-                href: "tel:+998997087604",
+                href: "tel:+998995701705",
               },
               {
                 icon: MdEmail,
@@ -127,7 +127,7 @@ export default function ContactPage() {
                         required
                         value={form.phone}
                         onChange={e => setForm(p => ({ ...p, phone: e.target.value }))}
-                        placeholder="+998 99 708-76-04"
+                        placeholder="+998 99 570-17-05"
                         className="w-full px-4 py-3.5 border border-gray-200 rounded-2xl focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 placeholder:text-secondary/50"
                       />
                     </div>
@@ -187,13 +187,13 @@ export default function ContactPage() {
                 className="bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm"
               >
                 <div className="p-5 border-b border-gray-100">
-                  <h3 className="font-heading font-bold text-maintext">📍 Qorako'l, Buxoro viloyati</h3>
+                  <h3 className="font-heading font-bold text-maintext">📍 Qorako'l tumani, Amfiteatr ro'parasi</h3>
                   <p className="text-secondary text-sm mt-1">Markazga kelish yo'nalishi</p>
                 </div>
                 <div className="h-56">
                   <iframe
                     title="Manzil"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96000!2d63.85!3d39.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zUW9yYWtvJ2w!5e0!3m2!1suz!2s!4v1620000000000!5m2!1suz!2s"
+                    src="https://www.google.com/maps?q=39.508329,63.840978&z=16&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

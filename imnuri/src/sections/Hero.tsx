@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { FaArrowRight, FaPlay, FaStar } from 'react-icons/fa'
 
 const badges = [
-  { text: "11+ Yil Tajriba", color: "bg-blue-100 text-primary" },
-  { text: "90% Grant Sohibi", color: "bg-yellow-100 text-yellow-700" },
-  { text: "IELTS Band 8", color: "bg-green-100 text-green-700" },
+  { text: "15+ Yil Tajriba", color: "bg-blue-100 text-primary" },
+  { text: "99% Grant Sohibi", color: "bg-yellow-100 text-yellow-700" },
+  { text: "IELTS 7.5 Ball", color: "bg-green-100 text-green-700" },
 ]
 
 export default function Hero() {
@@ -76,8 +76,8 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-white/80 text-lg leading-relaxed mb-8 max-w-md"
           >
-            Qorako'lda 11 yildan ortiq faoliyat yuritayotgan Ilm Nuri ta'lim markazi —
-            har yili yuzlab abituriyentlarni davlat grantigacha olib boradi.
+            QORAKO'L ILM NURI — 2015-yildan buyon o'quvchilarni OTM, Prezident maktablari,
+            Milliy sertifikat hamda xalqaro imtihonlarga tizimli tayyorlab kelayotgan ta'lim markazi.
           </motion.p>
 
           <motion.div
@@ -121,7 +121,7 @@ export default function Hero() {
               <div className="flex text-accent gap-0.5 mb-0.5">
                 {[...Array(5)].map((_, i) => <FaStar key={i} size={12} />)}
               </div>
-              <p className="text-white/70 text-sm">3000+ muvaffaqiyatli bitiruvchi</p>
+              <p className="text-white/70 text-sm">15000+ o'quvchi bizda tahsil olgan</p>
             </div>
           </motion.div>
         </div>
@@ -137,10 +137,10 @@ export default function Hero() {
 
             <div className="grid grid-cols-2 gap-4 mb-6">
               {[
-                { num: "11+", label: "Yil faoliyat", icon: "📅" },
-                { num: "90%", label: "Grant sohibi", icon: "🎓" },
-                { num: "8.0", label: "IELTS band", icon: "🇬🇧" },
-                { num: "3000+", label: "Bitiruvchi", icon: "👥" },
+                { num: "15+", label: "Yil faoliyat", icon: "📅" },
+                { num: "99%", label: "Grant sohibi", icon: "🎓" },
+                { num: "7.5", label: "IELTS ball", icon: "🇬🇧" },
+                { num: "15000+", label: "O'quvchi", icon: "👥" },
               ].map((item, i) => (
                 <div key={i} className="rounded-2xl p-4 text-center" style={{ background: 'rgba(255,255,255,0.08)' }}>
                   <div className="text-2xl mb-1">{item.icon}</div>
@@ -166,7 +166,7 @@ export default function Hero() {
                 ✓
               </div>
               <div>
-                <p className="text-white font-semibold text-sm">Yangi guruh — Iyun 2026</p>
+                <p className="text-white font-semibold text-sm">Qabul 30-sentyabrgacha ochiq</p>
                 <p className="text-white/60 text-xs">O'rin soni cheklangan</p>
               </div>
             </div>

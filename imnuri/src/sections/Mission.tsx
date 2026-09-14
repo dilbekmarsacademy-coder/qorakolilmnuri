@@ -5,7 +5,7 @@ const items = [
   {
     icon: FaBullseye,
     title: "Missiya",
-    text: "Har bir o'quvchini o'z salohiyatini ochishga yordam berish va ularni davlat grantigacha yetkazish.",
+    text: "Har bir o'quvchiga o'z imkoniyatini maksimal darajada ochib, yuqori natija va kuchli ta'lim olishiga yordam berish.",
     color: "bg-blue-100 text-primary",
   },
   {
@@ -44,21 +44,21 @@ export default function Mission() {
                 style={{ background: 'linear-gradient(135deg, #14306E 0%, #2563EB 100%)' }}
               >
                 <div className="text-center text-white p-8">
-                  <p className="font-heading font-black text-7xl text-accent">11+</p>
+                  <p className="font-heading font-black text-7xl text-accent">15+</p>
                   <p className="font-semibold text-xl mt-2">Yil faoliyat</p>
-                  <p className="text-white/70 text-sm mt-1">2013 yildan buyon</p>
+                  <p className="text-white/70 text-sm mt-1">2015 yildan buyon</p>
                 </div>
               </div>
               <div className="p-6">
                 <p className="text-secondary leading-relaxed">
-                  Ilm Nuri ta'lim markazi — Qorako'lda o'zining yuqori natijalari bilan mashhur.
-                  Biz nafaqat bilim beramiz, balki har bir o'quvchini o'z maqsadiga erishishga
-                  motivatsiya qilamiz va qo'llab-quvvatlaymiz.
+                  QORAKO'L ILM NURI o'quv markazi 2015-yildan buyon Qorako'l tumanida faoliyat
+                  yuritib kelmoqda. Viloyatlardan kelgan o'quvchilar uchun yotoqxona, kuniga
+                  3 mahal issiq ovqat va doimiy nazorat mavjud.
                 </p>
                 <div className="mt-4 flex items-center gap-3 p-3 bg-green-50 rounded-xl">
                   <span className="text-2xl">🏆</span>
                   <p className="text-green-700 font-semibold text-sm">
-                    O'zbekiston bo'yicha eng yaxshi ta'lim markazlaridan biri
+                    15000+ o'quvchi, 99%gacha grant natijasi
                   </p>
                 </div>
               </div>
@@ -82,9 +82,10 @@ export default function Mission() {
                 <span className="text-primary">bizning g'ururimiz</span>
               </h2>
               <p className="text-secondary text-lg leading-relaxed">
-                Ilm Nuri ta'lim markazi 2013 yildan beri Qorako'l shahrida faoliyat yuritib,
-                minglab abituriyentlarni davlat granti sohibi qilib kelmoqda.
-                Biz nafaqat bilim beramiz — biz kelajak quruvchilarni tayyorlaymiz.
+                Markazimizda 5-sinfdan boshlab abituriyentlargacha bo'lgan o'quvchilar uchun
+                turli fanlardan sifatli ta'lim yo'lga qo'yilgan. Asosiy maqsadimiz — o'quvchiga
+                faqat bilim berish emas, balki intizom, nazorat va aniq natijaga olib boradigan
+                tizim yaratish.
               </p>
             </motion.div>
 

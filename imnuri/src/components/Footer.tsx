@@ -48,8 +48,8 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
-              Qorako'ldagi eng ishonchli ta'lim markazi. 11+ yillik tajriba bilan
-              sizni maqsadingizga yetkazamiz.
+              2015-yildan buyon Qorako'lda ishonchli ta'lim markazi. 15+ yillik tajriba,
+              15000+ o'quvchi va 99%gacha grant natijasi bilan maqsadingizga yetkazamiz.
             </p>
 
             <div className="flex gap-2">
@@ -108,19 +108,19 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-accent mt-0.5 flex-shrink-0" size={15} />
-                <span className="text-white/60 text-sm">Qorako'l shahri, Buxoro viloyati, O'zbekiston</span>
+                <span className="text-white/60 text-sm">Buxoro viloyati, Qorako'l tumani, Amfiteatr ro'parasi</span>
               </li>
               <li className="flex items-start gap-3">
                 <FaPhoneAlt className="text-accent mt-0.5 flex-shrink-0" size={14} />
                 <div className="flex flex-col gap-1">
+                  <a href="tel:+998995701705" className="text-white/60 hover:text-white text-sm transition-colors">
+                    +998 99 570-17-05
+                  </a>
                   <a href="tel:+998997087604" className="text-white/60 hover:text-white text-sm transition-colors">
                     +998 99 708-76-04
                   </a>
                   <a href="tel:+998942443536" className="text-white/60 hover:text-white text-sm transition-colors">
                     +998 94 244-35-36
-                  </a>
-                  <a href="tel:+998995701705" className="text-white/60 hover:text-white text-sm transition-colors">
-                    +998 99 570-17-05
                   </a>
                 </div>
               </li>

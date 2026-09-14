@@ -1,20 +1,21 @@
 import { motion } from 'framer-motion'
-import { FaCheckCircle, FaMedal, FaUsers, FaHistory } from 'react-icons/fa'
+import { FaCheckCircle, FaMedal, FaUsers, FaBed, FaUtensils, FaEye, FaMobileAlt, FaClipboardCheck, FaCalendarCheck, FaSms } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-const milestones = [
-  { year: "2013", title: "Markaz tashkil topdi", desc: "Qorako'lda Ilm Nuri ta'lim markazi faoliyatini boshladi" },
-  { year: "2015", title: "Birinchi IELTS natijalari", desc: "O'quvchilarimiz IELTS Band 6.5 ko'rsatdi" },
-  { year: "2018", title: "100+ grant sohibi", desc: "Birinchi marta 100 dan ortiq o'quvchi grant oldi" },
-  { year: "2020", title: "Online ta'lim", desc: "Pandemiya davrida online format muvaffaqiyatli yo'lga qo'yildi" },
-  { year: "2022", title: "Kengayish", desc: "Yangi o'quv xonalari va zamonaviy jihozlar" },
-  { year: "2025", title: "245+ grant", desc: "Rekord: 245 ta o'quvchi davlat granti sohibi bo'ldi" },
+const conditions = [
+  { icon: FaBed, text: "Yotoqxona mavjud" },
+  { icon: FaUtensils, text: "Kuniga 3 mahal issiq ovqat" },
+  { icon: FaEye, text: "O'quvchilar ustidan doimiy nazorat" },
+  { icon: FaMobileAlt, text: "Telefonlardan foydalanish cheklangan" },
+  { icon: FaClipboardCheck, text: "Kundalik dars va testlar" },
+  { icon: FaUsers, text: "Ota-onalar bilan muntazam aloqa" },
+  { icon: FaCalendarCheck, text: "Har 2 oyda ota-onalar yig'ilishi" },
+  { icon: FaSms, text: "Natijalar bo'yicha SMS/xabarnomalar" },
+  { icon: FaMedal, text: "Tajribali va sertifikatga ega ustozlar" },
 ]
 
 const leadership = [
-  { name: "Abdullayev Husan", role: "Markaz direktori", experience: "15+ yil tajriba", emoji: "👨‍💼" },
-  { name: "Nazarova Feruza", role: "O'quv ishlari bo'yicha direktor o'rinbosari", experience: "11+ yil tajriba", emoji: "👩‍💼" },
-  { name: "Xoliqov Jasur", role: "IELTS bo'limi rahbari", experience: "8+ yil tajriba", emoji: "👨‍🏫" },
+  { name: "Sobir Ubaydulloyevich Arslonov", role: "Markaz asoschisi va rahbari", experience: "2015-yildan buyon", emoji: "👨‍💼" },
 ]
 
 const vp = { once: true, margin: '-80px' }
@@ -32,19 +33,19 @@ export default function AboutPage() {
             Biz haqimizda
           </span>
           <h1 className="font-heading font-black text-4xl md:text-5xl mb-6">
-            Ilm Nuri Ta'lim Markazi
+            QORAKO'L ILM NURI O'quv Markazi
           </h1>
           <p className="text-white/80 text-xl max-w-2xl mx-auto leading-relaxed">
-            2013 yildan beri Qorako'l shahrida sifatli ta'lim berib kelayotgan,
-            o'quvchilarning 90%ini davlat grantigacha yetkazuvchi markaz.
+            2015-yildan buyon o'quvchilarni OTM, Prezident maktablari, Milliy sertifikat
+            hamda xalqaro imtihonlarga tizimli tayyorlab kelayotgan ta'lim markazi.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             {[
-              { num: "11+", label: "Yil faoliyat" },
-              { num: "3000+", label: "Bitiruvchi" },
-              { num: "90%", label: "Grant sohibi" },
-              { num: "6", label: "Fan yo'nalishi" },
+              { num: "15+", label: "Yil faoliyat" },
+              { num: "15000+", label: "O'quvchi" },
+              { num: "99%", label: "Grant sohibi" },
+              { num: "10+", label: "Yo'nalish" },
             ].map((s, i) => (
               <div key={i} className="bg-white/10 rounded-2xl p-5">
                 <p className="font-heading font-black text-4xl text-accent">{s.num}</p>
@@ -73,7 +74,7 @@ export default function AboutPage() {
               {
                 icon: "🎯",
                 title: "Missiya",
-                text: "Har bir o'quvchini o'z salohiyatini ochishga yordam berish va ularni davlat grantigacha yetkazish.",
+                text: "Har bir o'quvchiga o'z imkoniyatini maksimal darajada ochib, yuqori natija va kuchli ta'lim olishiga yordam berish.",
                 color: "border-primary/20 bg-blue-50",
               },
               {
@@ -104,42 +105,57 @@ export default function AboutPage() {
             ))}
           </div>
 
-          {/* History timeline */}
+          {/* Markaz haqida batafsil */}
+          <motion.div
+            initial={{ y: 20 }}
+            whileInView={{ y: 0 }}
+            viewport={vp}
+            transition={{ duration: 0.5 }}
+            className="max-w-3xl mx-auto bg-background rounded-3xl p-8 md:p-10 border border-gray-100"
+          >
+            <h2 className="font-heading font-black text-2xl md:text-3xl text-maintext mb-4 text-center">
+              Markaz haqida
+            </h2>
+            <p className="text-secondary leading-relaxed">
+              QORAKO'L ILM NURI o'quv markazi 2015-yildan buyon Qorako'l tumanida faoliyat
+              yuritib kelmoqda. Markazimizda 5-sinfdan boshlab abituriyentlargacha bo'lgan
+              o'quvchilar uchun turli fanlardan sifatli ta'lim yo'lga qo'yilgan. Asosiy
+              maqsadimiz — o'quvchiga faqat bilim berish emas, balki intizom, nazorat va
+              aniq natijaga olib boradigan tizim yaratish. Viloyatlardan kelgan o'quvchilar
+              uchun yotoqxona, 3 mahal issiq ovqat va doimiy nazorat mavjud. O'quvchilarning
+              natijalari muntazam nazorat qilinadi va ota-onalar bilan aloqa yo'lga qo'yilgan.
+            </p>
+            <p className="text-secondary text-sm mt-4">
+              📍 Manzil: Buxoro viloyati, Qorako'l tumani, Amfiteatr ro'parasi
+            </p>
+          </motion.div>
+
+          {/* Ta'lim sharoiti */}
           <motion.h2
             initial={{ y: 20 }}
             whileInView={{ y: 0 }}
             viewport={vp}
             transition={{ duration: 0.5 }}
-            className="font-heading font-black text-3xl text-maintext text-center mb-12"
+            className="font-heading font-black text-3xl text-maintext text-center mb-12 mt-20"
           >
-            <FaHistory className="inline-block text-primary mr-3" size={26} />
-            Markaz tarixi
+            Ta'lim sharoiti
           </motion.h2>
-
-          <div className="relative">
-            <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 hidden md:block" />
-            <div className="space-y-8">
-              {milestones.map((m, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ x: i % 2 === 0 ? -30 : 30 }}
-                  whileInView={{ x: 0 }}
-                  viewport={vp}
-                  transition={{ duration: 0.5, delay: i * 0.08 }}
-                  className={`flex gap-6 items-center ${i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}
-                >
-                  <div className="flex-1 bg-background rounded-2xl p-6 border border-gray-100">
-                    <div className="flex items-center gap-3 mb-2">
-                      <span className="bg-primary text-white font-bold text-sm px-3 py-1 rounded-full">{m.year}</span>
-                      <h3 className="font-heading font-bold text-maintext">{m.title}</h3>
-                    </div>
-                    <p className="text-secondary text-sm">{m.desc}</p>
-                  </div>
-                  <div className="hidden md:flex w-4 h-4 bg-primary rounded-full flex-shrink-0 relative z-10" />
-                  <div className="flex-1 hidden md:block" />
-                </motion.div>
-              ))}
-            </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
+            {conditions.map((c, i) => (
+              <motion.div
+                key={i}
+                initial={{ y: 20 }}
+                whileInView={{ y: 0 }}
+                viewport={vp}
+                transition={{ duration: 0.4, delay: i * 0.06 }}
+                className="flex items-center gap-3 bg-background rounded-2xl p-4 border border-gray-100"
+              >
+                <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <c.icon className="text-primary" size={17} />
+                </div>
+                <span className="text-maintext text-sm font-medium">{c.text}</span>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
@@ -158,7 +174,7 @@ export default function AboutPage() {
             Rahbariyat
           </motion.h2>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-10">
+          <div className="grid max-w-sm mx-auto gap-6 mb-10">
             {leadership.map((person, i) => (
               <motion.div
                 key={i}
@@ -193,7 +209,7 @@ export default function AboutPage() {
             transition={{ duration: 0.5 }}
             className="font-heading font-black text-3xl text-maintext text-center mb-12"
           >
-            Nima uchun 90% o'quvchi grant oladi?
+            Nima uchun 99%gacha o'quvchi grant oladi?
           </motion.h2>
           <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
             {[
